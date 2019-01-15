@@ -1,0 +1,13 @@
+header {
+	background-color: #fcdb00;
+}
+
+.navbar-default {
+	background-color: #fcdb00;
+	border-color: #fcdb00;
+}
+
+header > div > nav > div > button.btn ,.btn-default:focus ,.btn-default:hover {
+	border: 0;
+	background-color: rgba(0,0,0,0);
+}
