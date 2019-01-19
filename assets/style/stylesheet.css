@@ -7,7 +7,43 @@ header {
 	border-color: #fcdb00;
 }
 
-header > div > nav > div > button.btn ,.btn-default:focus ,.btn-default:hover {
+header > div > nav > .row > .btn-group {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+header > div > nav > .row > .btn-group > button.btn ,.btn-default:focus ,.btn-default:hover {
 	border: 0;
 	background-color: rgba(0,0,0,0);
+	font-size: 21px;
+}
+
+header > div > nav > .row > div.center-block {
+	float: none;
+}
+
+header > div > nav > .row > .center-block > h1 {
+	display: inline;
+	font-size: 27px;
+	vertical-align: middle;
+}
+
+.social-Connect{
+	font-size: 21px;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.social-Connect > a {
+	color: #333333;
+}
+.bold {
+	font-weight: bold;
+}
+
+.openSans {
+	font-family: 'Open Sans', sans-serif;
 }
