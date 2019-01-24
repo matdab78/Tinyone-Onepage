@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
 	background-color: #fcdb00;
 }
@@ -21,6 +25,7 @@ header > div > nav > .row > .btn-group > button.btn ,.btn-default:focus ,.btn-de
 
 header > div > nav > .row > div.center-block {
 	float: none;
+	text-align: center;
 }
 
 header > div > nav > .row > .center-block > h1 {
@@ -29,21 +34,48 @@ header > div > nav > .row > .center-block > h1 {
 	vertical-align: middle;
 }
 
-.social-Connect{
+header > div > nav > .row > .social-Connect {
 	font-size: 21px;
 	position: absolute;
 	right: 0px;
 	top: 50%;
 	transform: translateY(-50%);
+	text-align: right;
 }
 
-.social-Connect > a {
+header > div > nav > .row > .social-Connect > a {
 	color: #333333;
 }
+
+header > div > div > h2 {
+	margin: 247px 0 19px 0;
+	color: #222222;
+	font-size: 45px;
+}
+
+header > div > div > p {
+	color: #222222;
+	font-size: 18px;
+}
+
+header > div > div > button {
+	border: 2px solid #000;
+	background-color: rgba(0, 0, 0, 0);
+	color: #010101;
+	margin-top: 37px;
+	font-size: 22px;
+}
+
+header > div > div > i {
+	font-size: 37px;
+	margin: 178px 0 53px 0;
+	color: #222222;
+}
+
 .bold {
 	font-weight: bold;
 }
 
-.openSans {
-	font-family: 'Open Sans', sans-serif;
+.center {
+	text-align: center;
 }
