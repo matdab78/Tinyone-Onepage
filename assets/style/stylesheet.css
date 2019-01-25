@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -30,7 +30,7 @@ header > div > nav > .row > div.center-block {
 
 header > div > nav > .row > .center-block > h1 {
 	display: inline;
-	font-size: 27px;
+	font-size: 30px;
 	vertical-align: middle;
 }
 
@@ -70,6 +70,27 @@ header > div > div > i {
 	font-size: 37px;
 	margin: 178px 0 53px 0;
 	color: #222222;
+}
+
+#features > .row > h2 {
+	font-size: 32px;
+}
+
+#features > .row > p {
+	font-size: 20px;
+}
+
+#features > .row > div > .row > h3 {
+	font-size: 22px;
+}
+
+#features > .row > div > .row > p {
+	font-size: 16px;
+}
+
+#features > .row > i.fas ,#features > .row > i.far {
+	font-size: 50px;
+	margin-top: 20px;
 }
 
 .bold {
