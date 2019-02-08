@@ -100,12 +100,13 @@ header > div > div > i {
 	color: #010101;
 }
 
-#pricing > #pricing-header > div > h2 {
+#pricing > #pricing-header > h2 {
 	margin: 215px 0 14px 0;
 	font-size: 32px;
 }
 
-#pricing > #pricing-header > div > p {
+#pricing > #pricing-header > p {
+	color: #898989;
 	font-size: 20px;
 }
 
@@ -158,10 +159,129 @@ header > div > div > i {
 	width: 100%;
 }
 
+#portfolio > .row > h2 {
+	color: #000;
+	margin-top: 191px;
+	font-size: 32px
+}
+
+#portfolio > .row > p {
+	color: #898989;
+	font-size: 20px;
+}
+
+#portfolio > .gallery {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 220px);
+	justify-content: center;
+}
+
+@media (max-width: 992px) {
+	#portfolio > .gallery {
+	grid-template-columns: repeat(2, 220px);
+	}
+}
+
+#portfolio > div > div {
+	margin: 51px 10px 0 10px;
+	position: relative;
+}
+
+#portfolio > div > div > img {
+	height: 200px;
+	width: 100%;
+}
+
+#portfolio > div > div > img:hover ~ .overlay , #portfolio > div > div > p:hover + .overlay ,#portfolio > div > div > .overlay:hover {
+	display: block;
+}
+
+#portfolio > div > div > p:first-of-type {
+	position: absolute;
+	top: 168px;
+	margin: 0 10px;
+	width: 180px;
+	height: 25px;
+	color: #ffffff;
+	font-size: 14px;
+	z-index: 1;
+}
+
+#portfolio > div > div > p > span:first-of-type {
+	position: absolute;
+	left: 0px;
+}
+
+#portfolio > div > div > p > span:last-of-type {
+	position: absolute;
+	right: 0px;
+}
+
+#portfolio > div > div > p > span > span {
+	position: relative;
+	top: -2px;
+}
+
+#portfolio > div > div > p > span > i {
+	font-size: 22px;
+}
+
+#portfolio > div > div > p > span:last-of-type > i {
+	position: relative;
+	top: 2px;
+}
+
+#portfolio > div > div > .overlay {
+	position: absolute;
+	top: 0px;
+	background-color: #222222;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	display: none;
+	z-index: 0;
+}
+
+#portfolio > div > div > .overlay > button {
+	background-color: #ffffff;
+	font-family: 'Myriad Pro Regular';
+	font-size: 18px;
+	color: #222222;
+	margin-top: 75px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border: 0px;
+}
+
+#portfolio > div > div > .overlay > button:hover {
+	background-color: #ffffff;
+	color: #222222;
+}
+
+#portfolio > div > div > h3 {
+	font-size: 22px;
+	color: #000;
+	margin: 17px 0 3px 0;
+}
+
+#portfolio > div > div > p:last-of-type {
+	font-size: 16px;
+	color: #898989;
+}
+
 .bold {
 	font-weight: bold;
 }
 
 .center {
 	text-align: center;
+}
+
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
 }
