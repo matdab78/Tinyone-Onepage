@@ -271,14 +271,6 @@ header > div > div > i {
 	color: #898989;
 }
 
-#team > div > h2 {
-	font-size: 32px;
-}
-
-#team > div > p:first-of-type {
-	font-size: 20px;
-}
-
 #team > div > div > * {
 	text-align: center;
 	max-width: 170px;
@@ -289,6 +281,30 @@ header > div > div > i {
 #team > div > div > img {
 	display: block;
 	margin: 0 auto;
+}
+
+#team > div > h2 {
+	font-size: 32px;
+}
+
+#team > div > p {
+	font-size: 20px;
+}
+
+#team > div > div > p.name {
+	font-size: 22px;
+}
+
+#team > div > div > p.job {
+	font-size: 16px;
+}
+
+#team > div > div > p.description {
+	font-size: 14px;
+}
+
+#team > div > div > span > i {
+	font-size: 16px;
 }
 
 .bold {
