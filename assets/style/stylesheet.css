@@ -325,6 +325,11 @@ header > div > div > i {
 	margin-left: 11px;
 }
 
+#stats > #statistics > div > * {
+	display: block;
+	text-align: center;
+}
+
 .bold {
 	font-weight: bold;
 }
