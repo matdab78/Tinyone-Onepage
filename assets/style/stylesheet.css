@@ -289,18 +289,22 @@ header > div > div > i {
 
 #team > div > h2 {
 	font-size: 32px;
+	color: #010101;
 }
 
 #team > div > p {
 	font-size: 20px;
+	color: #898989;
 }
 
 #team > div > div > p.name {
 	font-size: 22px;
+	color: #010101;
 }
 
 #team > div > div > p.job {
 	font-size: 16px;
+	color: #898989;
 }
 
 #team > div > div > p.description {
@@ -310,6 +314,7 @@ header > div > div > i {
 
 #team > div > div > span > i {
 	font-size: 16px;
+	color: #010101;
 }
 
 #team > div > div > span > i:first-child {
