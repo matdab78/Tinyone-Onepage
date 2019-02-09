@@ -312,16 +312,16 @@ header > div > div > i {
 	margin: 8px auto 10px auto;
 }
 
-#team > div > div > span > i {
+#team > div > div > span > a > i {
 	font-size: 16px;
 	color: #010101;
 }
 
-#team > div > div > span > i:first-child {
+#team > div > div > span > a > i:first-child {
 	margin-right: 16px;
 }
 
-#team > div > div > span > i:last-child {
+#team > div > div > span > a > i:last-child {
 	margin-left: 11px;
 }
 
