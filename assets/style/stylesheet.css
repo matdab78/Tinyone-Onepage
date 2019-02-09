@@ -330,6 +330,45 @@ header > div > div > i {
 	text-align: center;
 }
 
+#stats > #testimonial > * {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#stats > #testimonial > img {
+	width: 104px;
+	height: 104px;
+}
+
+#stats > #testimonial > div {
+	position: relative;
+}
+
+#stats > #testimonial > div > div:first-child {
+	text-align: right;
+	padding: 0;
+}
+
+#stats > #testimonial > div > div:last-child {
+	position: absolute;
+	right: 8.33333333%;
+	height: 100%;
+	padding: 0;
+}
+
+@media (max-width: 768px) {
+	#stats > #testimonial > div > div:last-child {
+		right: 0px;
+	}
+}
+
+#stats > #testimonial > div > div:last-child > i {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
 .bold {
 	font-weight: bold;
 }
