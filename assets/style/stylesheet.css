@@ -426,6 +426,28 @@ header > div > div > i {
 	left: 0px;
 }
 
+#contact > #contactChannels {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+	#contact > #contactChannels {
+	grid-template-columns: 1fr;
+	}
+}
+
+#contact > #contactChannels > div > * {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact > #contactChannels > div > p:last-of-type {
+	max-width: 170px;
+}
+
 .bold {
 	font-weight: bold;
 }
