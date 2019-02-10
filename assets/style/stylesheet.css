@@ -448,6 +448,29 @@ header > div > div > i {
 	max-width: 170px;
 }
 
+#contact > #messageForm > form > input ,#contact > #messageForm > form > textarea {
+	border-radius: 0px;
+	border: #000 solid 2px;
+}
+
+#contact > #messageForm > form > input {
+	height: 55px;
+}
+
+#contact > #messageForm > form > textarea {
+	height: 207px;
+	resize: none;
+}
+
+#contact > #messageForm > form > button {
+	display: block;
+	margin: 0 auto;
+	border-radius: 0px;
+	height: 51px;
+	width: 170px;
+	text-align: center;
+}
+
 .bold {
 	font-weight: bold;
 }
