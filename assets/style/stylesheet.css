@@ -327,10 +327,12 @@ header > div > div > i {
 
 #stats > #header > h2 {
 	font-size: 32px;
+	color: #010101;
 }
 
 #stats > #header > p {
-	font-size: 20px;
+	font-size: 20px;;
+	color: #898989;
 }
 
 #stats > #statistics > div > * {
@@ -339,15 +341,18 @@ header > div > div > i {
 }
 
 #stats > #statistics > div > i {
-	font-size: 48px;
+	font-size: 48px;;
+	color: #2d2d2d;
 }
 
 #stats > #statistics > div > p:first-of-type {
-	font-size: 24px;
+	font-size: 24px;;
+	color: #010101;
 }
 
 #stats > #statistics > div > p:last-of-type {
-	font-size: 14px;
+	font-size: 14px;;
+	color: #a8a8a8;
 }
 
 #stats > #testimonial > * {
@@ -362,11 +367,13 @@ header > div > div > i {
 }
 
 #stats > #testimonial > p:first-of-type {
-	font-size: 22px;
+	font-size: 22px;;
+	color: #010101;
 }
 
 #stats > #testimonial > p:last-of-type {
-	font-size: 16px;
+	font-size: 16px;;
+	color: #898989;
 }
 
 #stats > #testimonial > div {
@@ -393,6 +400,7 @@ header > div > div > i {
 
 #stats > #testimonial > div > p ,#stats > #testimonial > div > div > i {
 	font-size: 20px;
+	color: #898989;
 }
 
 #stats > #testimonial > div > div:last-child > i {
