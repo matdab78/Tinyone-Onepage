@@ -325,9 +325,29 @@ header > div > div > i {
 	margin-left: 11px;
 }
 
+#stats > #header > h2 {
+	font-size: 32px;
+}
+
+#stats > #header > p {
+	font-size: 20px;
+}
+
 #stats > #statistics > div > * {
 	display: block;
 	text-align: center;
+}
+
+#stats > #statistics > div > i {
+	font-size: 48px;
+}
+
+#stats > #statistics > div > p:first-of-type {
+	font-size: 24px;
+}
+
+#stats > #statistics > div > p:last-of-type {
+	font-size: 14px;
 }
 
 #stats > #testimonial > * {
@@ -339,6 +359,14 @@ header > div > div > i {
 #stats > #testimonial > img {
 	width: 104px;
 	height: 104px;
+}
+
+#stats > #testimonial > p:first-of-type {
+	font-size: 22px;
+}
+
+#stats > #testimonial > p:last-of-type {
+	font-size: 16px;
 }
 
 #stats > #testimonial > div {
@@ -361,6 +389,10 @@ header > div > div > i {
 	#stats > #testimonial > div > div:last-child {
 		right: 0px;
 	}
+}
+
+#stats > #testimonial > div > p ,#stats > #testimonial > div > div > i {
+	font-size: 20px;
 }
 
 #stats > #testimonial > div > div:last-child > i {
