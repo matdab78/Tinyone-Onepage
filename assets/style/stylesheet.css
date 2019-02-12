@@ -513,24 +513,51 @@ header > div > div > i {
 	margin-top: 24px;
 }
 
-#subscrible > div > form  > input {
+#darkBackground {
+	background-color: #010101;
+	width: 100%;
+	margin-top: 76px;
+}
+
+#darkBackground > #subscrible > div > h2 {
+	font-size: 32px;
+	color: #fff;
+	margin-top: 90px;
+}
+
+#darkBackground > #subscrible > div > p {
+	font-size: 20px;
+	color: #898989;
+}
+
+#darkBackground > #subscrible > div > form  > input {
+	font-size: 16px;
 	width: 597px;
 	height: 51px;
 	border: none;
 	border-radius: 0px;
+	background-color: #ffffff;
+	margin-top: 30px;
+	margin-right: 3px;
+	margin: 30px 3px 25px 0px;
 }
 
 @media (max-width: 768px) {
-	#subscrible > div > form  > input {
+	#darkBackground > #subscrible > div > div > form  > input {
 		width: 100%;
 	}
 }
 
-#subscrible > div > form  > button {
+#darkBackground > #subscrible > div > form  > button {
+	font-size: 16px;
+	position: relative;
+	top: -2px;
 	width: 135px;
 	height: 51px;
 	border: none;
 	border-radius: 0px;
+	background-color: #ffffff;
+	color: #010101;
 }
 
 .bold {
