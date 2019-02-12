@@ -513,6 +513,26 @@ header > div > div > i {
 	margin-top: 24px;
 }
 
+#subscrible > div > form  > input {
+	width: 597px;
+	height: 51px;
+	border: none;
+	border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+	#subscrible > div > form  > input {
+		width: 100%;
+	}
+}
+
+#subscrible > div > form  > button {
+	width: 135px;
+	height: 51px;
+	border: none;
+	border-radius: 0px;
+}
+
 .bold {
 	font-weight: bold;
 }
