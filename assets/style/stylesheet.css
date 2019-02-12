@@ -426,6 +426,14 @@ header > div > div > i {
 	left: 0px;
 }
 
+#contact > #header > h2 {
+	font-size: 32px;
+}
+
+#contact > #header > p {
+	font-size: 20px;
+}
+
 #contact > #contactChannels {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -444,8 +452,20 @@ header > div > div > i {
 	text-align: center;
 }
 
+#contact > #contactChannels > div >i {
+	font-size: 22px;
+}
+
+#contact > #contactChannels > div > p:first-of-type {
+	font-size: 24px;
+}
+
 #contact > #contactChannels > div > p:last-of-type {
+	font-size: 14px;
 	max-width: 170px;
+}
+#contact > #messageForm > form > * {
+	font-size: 16px;
 }
 
 #contact > #messageForm > form > input ,#contact > #messageForm > form > textarea {
