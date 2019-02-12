@@ -482,8 +482,12 @@ header > div > div > i {
 #contact > #messageForm > form > input ,#contact > #messageForm > form > textarea {
 	border-radius: 0px;
 	border: #000 solid 2px;
-	color: #898989;
+	color: #010101;
 }
+
+#contact > #messageForm > form > input::placeholder ,#contact > #messageForm > form > textarea::placeholder, #contact > #messageForm > form > input::-webkit-input-placeholder ,#contact > #messageForm > form > textarea::-webkit-input-placeholder {
+	color: #898989;
+} 
 
 #contact > #messageForm > form > input:first-of-type {
 	height: 55px;
@@ -537,6 +541,7 @@ header > div > div > i {
 	border: none;
 	border-radius: 0px;
 	background-color: #ffffff;
+	color: #010101;
 	margin-top: 30px;
 	margin-right: 3px;
 	margin: 30px 3px 25px 0px;
@@ -546,6 +551,10 @@ header > div > div > i {
 	#darkBackground > #subscrible > div > div > form  > input {
 		width: 100%;
 	}
+}
+
+#darkBackground > #subscrible > div > form  > input::placeholder {
+	color: #010101;
 }
 
 #darkBackground > #subscrible > div > form  > button {
