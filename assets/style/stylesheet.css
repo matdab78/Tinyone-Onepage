@@ -428,10 +428,12 @@ header > div > div > i {
 
 #contact > #header > h2 {
 	font-size: 32px;
+	color: #010101;
 }
 
 #contact > #header > p {
 	font-size: 20px;
+	color: #898989;
 }
 
 #contact > #contactChannels {
@@ -454,15 +456,18 @@ header > div > div > i {
 
 #contact > #contactChannels > div >i {
 	font-size: 22px;
+	color: #2d2d2d;
 }
 
 #contact > #contactChannels > div > p:first-of-type {
 	font-size: 24px;
+	color: #010101;
 }
 
 #contact > #contactChannels > div > p:last-of-type {
 	font-size: 14px;
 	max-width: 170px;
+	color: #898989;
 }
 #contact > #messageForm > form > * {
 	font-size: 16px;
@@ -471,6 +476,7 @@ header > div > div > i {
 #contact > #messageForm > form > input ,#contact > #messageForm > form > textarea {
 	border-radius: 0px;
 	border: #000 solid 2px;
+	color: #898989;
 }
 
 #contact > #messageForm > form > input {
@@ -489,6 +495,8 @@ header > div > div > i {
 	height: 51px;
 	width: 170px;
 	text-align: center;
+	background-color: #000;
+	color: #ffffff;
 }
 
 .bold {
