@@ -569,6 +569,12 @@ header > div > div > i {
 	color: #010101;
 }
 
+#darkBackground > #footer > div > div > p ,#darkBackground > #footer > div > div > p > a {
+	color: #fff;
+	font-size: 16px;
+	width: 100%;
+}
+
 .bold {
 	font-weight: bold;
 }
