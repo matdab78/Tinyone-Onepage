@@ -574,10 +574,24 @@ header > div > div > i {
 	color: #010101;
 }
 
+#darkBackground > #footer {
+	margin-top: 60px;
+	padding-bottom: 270px;
+}
+
+#darkBackground > #footer > div > div {
+	margin-top: 24px;
+}
+
+#darkBackground > #footer > div > div:first-child > p ,#darkBackground > #footer > div > div:first-child > p > a {
+	margin-bottom: 5px;
+}
+
 #darkBackground > #footer > div > div > p ,#darkBackground > #footer > div > div > p > a {
 	color: #fff;
 	font-size: 16px;
 	width: 100%;
+	margin: 0px;
 }
 
 .bold {
