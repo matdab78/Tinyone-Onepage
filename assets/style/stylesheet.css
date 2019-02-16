@@ -11,7 +11,9 @@ header {
 	border-color: #fcdb00;
 }
 
+
 header > div > nav > .row > .btn-group {
+	padding: 0;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -45,6 +47,36 @@ header > div > nav > .row > .social-Connect {
 
 header > div > nav > .row > .social-Connect > a {
 	color: #333333;
+}
+
+@media (max-width: 382px) {
+	header > div > nav > .row {
+		display: grid;
+		grid-template-columns: 42px 1fr 50px;
+	}
+
+	header > div > nav > .row > .btn-group {
+		width: 42px;
+	}
+
+	header > div > nav > .row > .title {
+		width: auto;
+		padding: 0;
+	}
+}
+
+@media (max-width: 541px) {
+	header > div > nav > .row > .social-Connect {
+		width: 50px;
+		padding: 0;
+		right: -15px;
+	}
+	
+	header > div > nav > .row > .social-Connect > a:first-child {
+		position: relative;
+		left: -6px;
+		margin-right: 7px;
+	}
 }
 
 header > div > div > h2 {
